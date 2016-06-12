@@ -13,10 +13,13 @@ namespace EntityMigration
     {
         static void Main(string[] args)
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<FootballManagerContext, Configuration>());
-
             var fm = new FootballManagerContext();
             var count = fm.FootballClub.Count();
+            Console.WriteLine(count);
+
+            var fm1 = new FootballManagerContext();
+            count = fm.FootballClub.Count();
+
             Console.WriteLine(count);
             Console.ReadKey();
         }

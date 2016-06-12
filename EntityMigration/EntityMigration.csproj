@@ -53,8 +53,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EF\DefaultData.cs" />
+    <Compile Include="EF\EveryDefaultData.cs" />
     <Compile Include="EF\FootballClub.cs" />
     <Compile Include="EF\FootballManagerContext.cs" />
+    <Compile Include="EF\FootballManagerDbConfiguration.cs" />
     <Compile Include="Migrations\201606111642342_CreateDb.cs" />
     <Compile Include="Migrations\201606111642342_CreateDb.Designer.cs">
       <DependentUpon>201606111642342_CreateDb.cs</DependentUpon>
@@ -62,10 +64,6 @@
     <Compile Include="Migrations\201606111657077_AddCountry.cs" />
     <Compile Include="Migrations\201606111657077_AddCountry.Designer.cs">
       <DependentUpon>201606111657077_AddCountry.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201606111824444_AddCity.cs" />
-    <Compile Include="Migrations\201606111824444_AddCity.Designer.cs">
-      <DependentUpon>201606111824444_AddCity.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -81,9 +79,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606111657077_AddCountry.resx">
       <DependentUpon>201606111657077_AddCountry.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201606111824444_AddCity.resx">
-      <DependentUpon>201606111824444_AddCity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

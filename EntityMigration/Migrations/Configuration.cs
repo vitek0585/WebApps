@@ -12,20 +12,19 @@ namespace EntityMigration.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(EntityMigration.EF.FootballManagerContext context)
         {
-            if (!context.FootballClub.Any())
+            context.FootballClub.Add(new FootballClub()
             {
-                context.FootballClub.Add(new FootballClub()
-                {
-                    Name = "Dynamo",
-                    Country = "Ukraine"
-                });
-                context.SaveChanges();
-                base.Seed(context);
-            }
+                Name = "Dynamo",
+                Country = "Ukraine"
+            });
+            context.SaveChanges();
+            base.Seed(context);
+
         }
     }
 }

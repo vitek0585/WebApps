@@ -9,12 +9,11 @@ namespace EntityMigration.EF
 
         public FootballManagerContext() : base("name=FootballDb")
         {
-
         }
 
         static FootballManagerContext()
         {
-        
+
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

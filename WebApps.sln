@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityMigration", "EntityMigration\EntityMigration.csproj", "{B6AF4315-15C3-498D-B6E6-85D715A5F889}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{EF6D827C-1A13-4562-8A5E-D31F4D70A513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGame", "CodingGame\CodingGame.csproj", "{49194F7E-231F-4510-997F-D63A68D8E416}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B6AF4315-15C3-498D-B6E6-85D715A5F889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6AF4315-15C3-498D-B6E6-85D715A5F889}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6AF4315-15C3-498D-B6E6-85D715A5F889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6D827C-1A13-4562-8A5E-D31F4D70A513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6D827C-1A13-4562-8A5E-D31F4D70A513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6D827C-1A13-4562-8A5E-D31F4D70A513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6D827C-1A13-4562-8A5E-D31F4D70A513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49194F7E-231F-4510-997F-D63A68D8E416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49194F7E-231F-4510-997F-D63A68D8E416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49194F7E-231F-4510-997F-D63A68D8E416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49194F7E-231F-4510-997F-D63A68D8E416}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
